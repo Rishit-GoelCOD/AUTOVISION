@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+
+# Data
+data/raw/*
+data/processed/*
+
+# ML models / weights
+models/*.pt
+models/*.onnx
+models/*.pth
+models/*.h5
+
+# Generated outputs
+runs/
+outputs/
+results/
+logs/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
