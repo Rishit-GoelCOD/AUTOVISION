@@ -1,45 +1,37 @@
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.so
 
 # Virtual environment
 .venv/
 venv/
 env/
+ENV/
 
-# Jupyter
+# Jupyter Notebooks
 .ipynb_checkpoints/
 
 # macOS
 .DS_Store
+Icon?
+Icon\r
 
-# Environment / secrets
-.env
-.env.*
+# Raw heavy datasets (master extracted dataset is tracked in data/features.csv)
+data/own/
+data/raw/
+driver-safety-monitor/data/own/
+driver-safety-monitor/data/raw/
 
-# Data
-data/raw/*
-data/processed/*
+# Local subfolder (files are at root)
+driver-safety-monitor/
 
-# ML models / weights
-models/*.pt
-models/*.onnx
-models/*.pth
-models/*.h5
+# IDE & Editor files
+.vscode/
+.idea/
 
-# Generated outputs
-runs/
-outputs/
-results/
-logs/
-
-# IDE
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-
-# Python tooling
+# Tooling caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
